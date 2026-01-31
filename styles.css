@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'kaushan';
+    src: url('kaushan-script/KaushanScript-Regular.woff2') format('woff2'),
+        url('kaushan-script/KaushanScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    background-color: black;
+}
+
+#fabric-shoes-img {
+    height: 100vh;
+    position: relative;
+    display: inline-block;
+}
+
+#logo-thing {
+    position: absolute;
+    top: 20%;
+    background-color: bisque;
+    opacity: 0.5;
+}
+
+#logo-image {
+    height: 10vh;
+    padding: 15px 10px 0px 51px;
+    display: inline-block;
+    opacity: 1;
+}
+
+#brand-name {
+    font-family: "kaushan";
+    font-size: 48px;
+    opacity: 1;
+    color: lightcoral;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#credit {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 175px;
+}
+
+#credit span {
+    text-decoration: underline;
+}
+
+form {
+    background-color: white;
+    align-content: center;
+    padding: 0px 70px 0px 60px;
+}
+
+.text {
+    font-size: 20px;
+    text-align: left;
+}
+
+.text span {
+    font-style: italic;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+    box-shadow: 2px 2px 5px lightgray;
+    padding: 0px 50px 0px 20px;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+
+input {
+    width: 50%;
+}
+
+label {
+    font-size: 10px;
+}
+
+button {
+    margin: 15px;
+    margin-left: 0;
+    padding: 15px;
+    background-color: lightcoral;
+    border-radius: 4px;
+    border-color: lightcoral;
+    font-weight: bold;
+}
+
+#account {
+    font-size: 14px;
+}
+
+#account span {
+    color: lightcoral;
+    font-weight: bolder;
+}
