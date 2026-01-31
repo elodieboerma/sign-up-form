@@ -9,10 +9,10 @@
 
 body {
     display: flex;
-    margin: auto;
+    justify-content: center;
     padding: 0;
-    width: 80%;
-    background-color: black;
+    width: 100%;
+    margin: 0;
 }
 
 #fabric-shoes-img {
@@ -24,24 +24,21 @@ body {
 #logo-thing {
     position: absolute;
     top: 20%;
-    background-color: bisque;
-    opacity: 0.5;
+    background-color: rgba(255, 228, 196, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 83px;
 }
 
 #logo-image {
     height: 10vh;
-    padding: 15px 10px 0px 51px;
-    display: inline-block;
-    opacity: 1;
+    margin-right: 10px;
 }
 
 #brand-name {
     font-family: "kaushan";
     font-size: 48px;
-    opacity: 1;
     color: lightcoral;
-    display: inline-block;
-    padding: 0px 10px;
 }
 
 #credit {
@@ -50,7 +47,7 @@ body {
     position: absolute;
     width: 100%;
     bottom: -20px;
-    left: 175px;
+    left: 50px;
 }
 
 #credit span {
@@ -60,7 +57,7 @@ body {
 form {
     background-color: white;
     align-content: center;
-    padding: 0px 70px 0px 60px;
+    padding-left: 60px;
 }
 
 .text {
@@ -93,11 +90,11 @@ fieldset {
 }
 
 input {
-    width: 50%;
+    width: 80%;
 }
 
 label {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 button {
@@ -117,4 +114,16 @@ button {
 #account span {
     color: lightcoral;
     font-weight: bolder;
+}
+
+/* pseudoclasses/-elements */
+
+input[type="password"]:invalid {
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+input:focus {
+    outline-color: blue;
+    box-shadow: 2px 2px 6px 2px rgb(82, 82, 247);
 }
